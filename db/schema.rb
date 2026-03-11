@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2026_03_11_013000) do
+ActiveRecord::Schema[7.1].define(version: 2026_03_11_061135) do
   create_table "messages", charset: "utf8mb3", force: :cascade do |t|
     t.string "content"
     t.bigint "room_id", null: false
